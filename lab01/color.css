@@ -1,0 +1,30 @@
+html,body 
+{
+    background-color: rgb(248, 115, 38);
+    margin: 0;
+}
+
+.css-box {
+    background-color: whitesmoke;
+    margin: 30px;
+    padding: 20px;
+}
+
+.css-image {
+    width: 100%;
+}
+
+.css-read {
+    color: brown;
+    background-color: rgb(236, 188, 188);
+    text-decoration: none;
+}
+
+.css-big {
+    max-width: 700px;
+    margin: auto;
+}
+
+.css-header {
+    background-color: cornflowerblue;
+}
