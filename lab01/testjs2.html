@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+
+<body>
+    <ul>
+        <li> Dog </li>
+        <li> Cat </li>
+    </ul>
+    <p id="p1">1</p>
+    <p id="p2">2</p>
+
+    <script>
+        const v1 = document.getElementsByTagName("li"); 
+        const v2 = document.getElementById("p1"); 
+        const v3 = document.getElementById("p2"); 
+        v2.innerText=v1[1].innerText;
+        v2.style.color = "darkred";
+
+        v3.innerText=v1[0].innerText;
+        v3.style.color = "blue";
+    </script>
+
+</body>
+
+</html>
